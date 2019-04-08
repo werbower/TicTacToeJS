@@ -1,0 +1,36 @@
+.players {
+  display: flex;
+  justify-content: space-around;
+}
+.status-line {
+  margin: 2em 0;
+  text-align: center;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+button.box {
+  min-width: 100px;
+  min-height: 100px;
+  font-size: 4em;
+}
+button.start {
+  min-width: 100px;
+  min-height: 2em;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  max-width: 700px;
+  min-width: 400px;
+  grid-gap: 0.2em;
+  margin: 0 auto;
+}
